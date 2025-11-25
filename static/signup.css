@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #0a3d62;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+.home-box,
+.login-box {
+    background: white;
+    color: #0a3d62;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-box:hover,
+.login-box:hover {
+    background: #f1f2f6;
+}

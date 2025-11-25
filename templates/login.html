@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Login</title>
+    <link rel="stylesheet" href="static/login.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="navbar-brand">
+            **My Project Name**
+        </div>
+        <nav class="navbar-nav">
+            <a href="/signup" class="nav-link">Sign Up</a>
+        </nav>
+    </header>
+
+    <main class="login-container">
+        <div class="login-box">
+            <h2>User Login</h2>
+            <form action="/loginsubmit" method="POST" class="login-form">
+                
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <p class="forgot-link"><a href="#">Forgot Password?</a></p>
+        </div>
+    </main>
+
+</body>
+</html>
